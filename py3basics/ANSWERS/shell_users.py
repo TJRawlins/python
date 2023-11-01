@@ -1,5 +1,7 @@
+
 users_by_shell = {}
-with open("../DATA/passwd") as passwd_in:
+
+with open("c:/repos/Python/py3basics/DATA/passwd") as passwd_in:
     for line in passwd_in:
         shell = line.rstrip().split(":")[-1]
         # or

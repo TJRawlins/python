@@ -15,8 +15,7 @@ def main():
         print(f"Before: >{old_string}<\nAfter:  >{new_string}<\n")
 
 def cleanup(s):
-    pass  # placeholder statement -- delete when you add your code
-    # put your code here and return the cleaned-up string...
+    return s.strip().lower()
 
 
 main()
